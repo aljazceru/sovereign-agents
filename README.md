@@ -17,6 +17,7 @@ Sovereign agents are extension of a sovereign individual, expanding his capabili
   - web research
   - copywriting
   - market research
+- write code
 
 
 ### Building blocks for Sovereign Agents
