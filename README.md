@@ -1,6 +1,12 @@
 ### What are sovereign agents
 Sovereign agents are extension of a sovereign individual, expanding his capabilities and augmenting his intelect. 
 
+### Why sovereign agents
+- technology advancements and state of the world has brought us to a point where it is possible and also needed to build them
+- freedom technology for free people by free people
+- pushing the boundries of possible and advancing the frontier
+- creating a free(er) market for compute and data
+
 ### Guiding principles for sovereign agents are:
 - they preserve the individuals privacy
 - they support the individuals goals
@@ -10,6 +16,8 @@ Sovereign agents are extension of a sovereign individual, expanding his capabili
 
 ### How sovereign agents operate
 Currently primary modality of how people interact with any "AI" is by requesting things from it. But this is merely a crutch. Sovereign agent could be a guard dog for its owner's attention and time, proactively gathering and processing infromation on behalf of its owner, filtering out and summarizing the relevant and discarding the noise. And push the relevant to the owner instead of waiting for the owner to figure out it needs it. 
+
+Sovereign Agent can be thought of as a personal assistant knowing all your quirks, executing your will and making sure you're on top of everything needed. It should improve your life, not just provide another gadget to play with. 
 
 ### Functions that sovereign agents could do:
 - news aggregation and preparation of daily summaries based on interests
