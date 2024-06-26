@@ -1,6 +1,9 @@
 ### What are sovereign agents
 Sovereign agents are extension of a sovereign individual, expanding his capabilities and augmenting his intelect. 
 
+### Why agents 
+Currently primary modality of how people interact with any "AI" is by requesting things from it. But this is merely a crutch compared to the spaceship an semi-autonomous agent could do for you. 
+
 ### Why sovereign agents
 - technology advancements and state of the world has brought us to a point where it is possible and also needed to build them
 - freedom technology for free people by free people
@@ -15,7 +18,7 @@ Sovereign agents are extension of a sovereign individual, expanding his capabili
 - they enable the individuals sovereignity
 
 ### How sovereign agents operate
-Currently primary modality of how people interact with any "AI" is by requesting things from it. But this is merely a crutch. Sovereign agent could be a guard dog for its owner's attention and time, proactively gathering and processing infromation on behalf of its owner, filtering out and summarizing the relevant and discarding the noise. And push the relevant to the owner instead of waiting for the owner to figure out it needs it. 
+Sovereign agent could be a guard dog for its owner's attention and time, proactively gathering and processing infromation on behalf of its owner, filtering out and summarizing the relevant and discarding the noise. And push the relevant to the owner instead of waiting for the owner to figure out it needs it. 
 
 Sovereign Agent can be thought of as a personal assistant knowing all your quirks, executing your will and making sure you're on top of everything needed. It should improve your life, not just provide another gadget to play with. 
 
@@ -62,3 +65,5 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
 #### currently identified obstacles 
 - confidential computing is complex, with multiple competing architectures and implementation limitations (more research on that can be found at [ungovernable.tech](https://ungovernable.tech)
 - limited availability of hardware, specifically high end GPUs that have secure enclave support but there are alternative approaches like extending [CPU TEEs on existing GPUs without hardware modifications](https://www.s3lab.io/paper/gevisor-socc23)
+
+For comments, issues or ideas go to [Github repository](https://github.com/aljazceru/sovereign-agents).
