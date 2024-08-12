@@ -72,6 +72,10 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
 - limited availability of hardware, specifically high end GPUs that have secure enclave support but there are alternative approaches like extending [CPU TEEs on existing GPUs without hardware modifications](https://www.s3lab.io/paper/gevisor-socc23)
 ##### Complexity
 - lots of new technologies that might lack maturitz and will be bumpy to work with
-##### 
+
+
+### Resources
+- [OpenAgents: An open platform for language agents in the wild](https://arxiv.org/pdf/2310.10634)
+- [OSworld - benchmarking multimodal agents for open-ended tasks in real computer environments](https://arxiv.org/pdf/2404.07972)
 
 For comments, issues or ideas go to [repository](https://github.com/aljazceru/sovereign-agents) or ping me on [nostr.](https://nostr.at/aljaz@nostr.si)
