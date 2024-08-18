@@ -71,7 +71,8 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
 - confidential computing is complex, with multiple competing architectures and implementation limitations (more research on that can be found at [ungovernable.tech](https://ungovernable.tech)
 - limited availability of hardware, specifically high end GPUs that have secure enclave support but there are alternative approaches like extending [CPU TEEs on existing GPUs without hardware modifications](https://www.s3lab.io/paper/gevisor-socc23)
 ##### Complexity
-- lots of new technologies that might lack maturitz and will be bumpy to work with
+- lots of new technologies that might lack maturity and will be bumpy to work with
+- decentralized systems are inherintly more complex to build than centralized ones
 
 
 ### Resources
