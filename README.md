@@ -30,7 +30,7 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
   - copywriting
   - market research
 - write code (and execute it)
-- autonomously perform (basic) tasks at some point)
+- autonomously perform (basic) tasks (at some point)
 
 ### Building blocks for Sovereign Agents
 - convert text to speech
