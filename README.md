@@ -78,5 +78,7 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
 ### Resources
 - [OpenAgents: An open platform for language agents in the wild](https://arxiv.org/pdf/2310.10634)
 - [OSworld - benchmarking multimodal agents for open-ended tasks in real computer environments](https://arxiv.org/pdf/2404.07972)
+- [Andrew Ng - Agentic AI workflows](https://www.youtube.com/watch?v=sal78ACtGTc)
+- 
 
 For comments, issues or ideas go to [repository](https://github.com/aljazceru/sovereign-agents) or ping me on [nostr.](https://nostr.at/aljaz@nostr.si)
