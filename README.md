@@ -20,7 +20,7 @@ Currently primary modality of how people interact with any "AI" is by requesting
 ### How sovereign agents operate
 Sovereign agent is a guard dog for its owner's attention and time. Proactively gathering and processing infromation on behalf of its owner, filtering out and summarizing the relevant and discarding the noise. And push the relevant to the owner instead of waiting for the owner to figure out it needs it. 
 
-Sovereign Agent can be thought of as a personal assistant knowing all your quirks, executing your will and making sure you're on top of everything needed. It should improve your life, not just provide another gadget to play with. 
+Sovereign Agent can be thought of as a personal assistant knowing all your quirks, executing your will and making sure you're on top of everything needed. It should improve your life, not provide just another gadget to play with.
 
 ### Functions that sovereign agents could do:
 - news aggregation and preparation of daily summaries based on interests
