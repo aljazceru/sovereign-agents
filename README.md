@@ -6,9 +6,8 @@ Currently primary modality of how people interact with any "AI" is by requesting
 
 ### Why sovereign agents
 - technology advancements and state of the world has brought us to a point where it is possible and also needed to build them
-- pushing the boundries of possible and advancing the frontier
-- creating a free(er) market for compute and data
-- freedom technology for free people by free people, instead of capture by big tech
+- pushing the boundries of possible and advancing the frontier of AI and human capabilities 
+- creating a free(er) market for compute and data and escape the big tech surveillance bubble
 
 ### Guiding principles for sovereign agents are:
 - they preserve the individuals privacy
@@ -33,15 +32,14 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
 - autonomously perform (basic) tasks (at some point)
 
 ### Building blocks for Sovereign Agents
-- convert text to speech
-- convert speech to text
-- text to image generation
-- text recognition
-- image manipulation
-- conversational LLM
-- personal context through RAG
-- access to vast pools of information (web search, private archives)
-- confidential computing
+#### Data vending machines
+Data vending machines simple apps that provide data or services for payment or free. It utilizes nostr for discovery and coordination, meaning its very simple to both programatically discover services or spin up new dvm's to offer a service. DVMs can work as connective tissue, bridging the gaps in data, knowledge and access and enable agents to purchase what they need. And at the same time enable people to offer services consumable by agents. 
+
+#### Model Context Protocol
+[MCP](https://docs.cursor.com/advanced/model-context-protocol) expands LLM's capabilities and offers it tooling. I
+
+#### Confidential Computing
+Confidential computing enables us to run sensitive operations on much more capable hardware than we own. This enables us to securely scale while not relying on big tech solutions like OpenAI for our AI needs. 
 
 ### Open and interoperable approach to building
 - building in the open to attract as many people to the efforts as possible
