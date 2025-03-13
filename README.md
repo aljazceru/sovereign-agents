@@ -32,11 +32,12 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
 - autonomously perform (basic) tasks (at some point)
 
 ### Building blocks for Sovereign Agents
-#### Data vending machines
+#### Tools for AI
+##### Data vending machines
 Data vending machines simple apps that provide data or services for payment or free. It utilizes nostr for discovery and coordination, meaning its very simple to both programatically discover services or spin up new dvm's to offer a service. DVMs can work as connective tissue, bridging the gaps in data, knowledge and access and enable agents to purchase what they need. And at the same time enable people to offer services consumable by agents. 
 
-#### Model Context Protocol
-[MCP](https://docs.cursor.com/advanced/model-context-protocol) expands LLM's capabilities and offers it tooling. I
+##### Model Context Protocol / Open Tool Calling 
+[MCP](https://docs.cursor.com/advanced/model-context-protocol) was developed by Anthropic and expands LLM's capabilities with tools. There is an implementation of using nostr as discovery mechanism for MCP called [DVMCP](https://github.com/gzuuus/dvmcp). [OpenToolCalling](https://opentoolcalling.org/) is trying to achieve similar goals (and is compatible with MCP). 
 
 #### Confidential Computing
 Confidential computing enables us to run sensitive operations on much more capable hardware than we own. This enables us to securely scale while not relying on big tech solutions like OpenAI for our AI needs. 
