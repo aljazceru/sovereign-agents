@@ -8,6 +8,8 @@ Currently primary modality of how people interact with any "AI" is by requesting
 - technology advancements and state of the world has brought us to a point where it is possible and also needed to build them
 - pushing the boundries of possible and advancing the frontier of AI and human capabilities 
 - creating a free(er) market for compute and data and escape the big tech surveillance bubble
+- enabling private individuals keep their privacy while benefit from advancemnets in technology
+- demonstrate the superior technological advancements of distributed technologies and open networks
 
 ### Guiding principles for sovereign agents are:
 - they preserve the individuals privacy
@@ -15,32 +17,33 @@ Currently primary modality of how people interact with any "AI" is by requesting
 - they save the individuals time
 - they enhance the individuals productivity
 - they enable the individuals sovereignity
+- 
 
 ### How sovereign agents operate
-Sovereign agent is a guard dog for its owner's attention and time. Proactively gathering and processing infromation on behalf of its owner, filtering out and summarizing the relevant and discarding the noise. And push the relevant to the owner instead of waiting for the owner to figure out it needs it. 
+Sovereign agent(SovAgnt) is a guard dog for its owner's attention and time. Proactively gathering and processing infromation on behalf of its owner, filtering out and summarizing the relevant and discarding the noise. And push the relevant to the owner instead of waiting for the owner to figure out it needs it. 
 
 Sovereign Agent can be thought of as a personal assistant knowing all your quirks, executing your will and making sure you're on top of everything needed. It should improve your life, not provide just another gadget to play with.
 
-### Functions that sovereign agents could do:
-- news aggregation and preparation of daily summaries based on interests
-- email and other communication filtering, automated responding acting as a narrow executive assistant (or at least draft responses)
-- perform simple tasks
-  - web research
-  - copywriting
-  - market research
-- write code (and execute it)
-- autonomously perform (basic) tasks (at some point)
+### Functions of sovereign agents
+- daily summaries based on interests (podcasts, blogs, rss feeds etc)
+- email and other communication filtering, acting as a narrow executive assistant, drafting responses 
+- perform tasks like research, copywriting, reminding you of your appointments
+- access your knowledge base
+- detailed memory 
+
 
 ### Building blocks for Sovereign Agents
-#### Tools for AI
-##### Data vending machines
-Data vending machines simple apps that provide data or services for payment or free. It utilizes nostr for discovery and coordination, meaning its very simple to both programatically discover services or spin up new dvm's to offer a service. DVMs can work as connective tissue, bridging the gaps in data, knowledge and access and enable agents to purchase what they need. And at the same time enable people to offer services consumable by agents. 
+#### Nostr
+Using nostr as default backbone of the SovAgnt makes it easily expandable and interoperable. It uses nostr for its core, utilizing it both for coorination and communication. It also makes it easily 
+#### ContextVM
+ContexVM enables tool calling and access to data through MCP. It utilizes nostr for discovery and coordination, meaning its very simple to have multiple computers running services and connect to it asynchronously. It gives it the ability to spin 
 
-##### Model Context Protocol / Open Tool Calling 
-[MCP](https://docs.cursor.com/advanced/model-context-protocol) was developed by Anthropic and expands LLM's capabilities with tools. There is an implementation of using nostr as discovery mechanism for MCP called [DVMCP](https://github.com/gzuuus/dvmcp). [OpenToolCalling](https://opentoolcalling.org/) is trying to achieve similar goals (and is compatible with MCP). 
+#### Model Context Protocol 
+[MCP](https://docs.cursor.com/advanced/model-context-protocol) was developed by Anthropic and expands LLM's capabilities with tools. There is an implementation of using nostr as discovery mechanism for MCP called [ContextVM](https://www.contextvm.org/). This instantly gives the SovAgnt ability to access variety of tools. 
 
 #### Confidential Computing
-Confidential computing enables us to run sensitive operations on much more capable hardware than we own. This enables us to securely scale while not relying on big tech solutions like OpenAI for our AI needs. 
+Confidential computing enables us to run sensitive operations on much more capable hardware than we own. This enables us to securely scale while not relying on big AI solutions for our AI needs. Providers like [privatemode.ai](https://privatemode.ai) make it easy to integrate confidential inference in SovAgnt and separate holons. Given the compatibility of api standards it is also easy to swap out between locally run models and using a confidential ai provider, or using remote inference for bigger tasks and local model for coordination. 
+
 
 ### Open and interoperable approach to building
 - building in the open to attract as many people to the efforts as possible
@@ -52,32 +55,20 @@ Confidential computing enables us to run sensitive operations on much more capab
 - confidential computing and utilization of distributed compute with DVM's gives you the ability to access large amount of information, algorihtms and capabilities that you don't have locally
 - distribution of workloads improves efficiency of second realm resource utilization and provides business opportunities for specialization
 
-### How do we build them
+### Plan
 #### implementing reusable building blocks using holon philosophy, making each of them usable by themselves and as a part of a larger system
-- most of holons can be implemented as standalone [data vending machines](https://www.data-vending-machines.org/), thus immediately useful and could actually provide revenue
-- by embracing DVM's sovereign agents instantly get all the abilities of all DVMs out there (with the caveat that they are not confidential)
-- easily reusable confidential computing playbooks and prepared containers for developers to start creating software that can run in enclaves
+- most of holons can be implemented as standalone [ContextVM](https://www.contextvm.org/), thus immediately useful and could actually provide revenue to users running them
+- by embracing distributed tools  sovereign agents instantly get all the abilities of all tools the marketplaces provide 
+
+
 #### focusing upfront on making the participation of other interested parties as smooth as possible
 - extensive documentation and development tooling to enable rapid experimentation
-- ensuring minimal non-breakable communication standards between holons to prevent breaking changes and friction in the process
-- making scratching your own its trivially simple
+- ensuring minimal non-breakable communication standards between holons to prevent breaking changes and friction in the process by using nostr as internal coordination mechanism for the SovAgnt 
+  
 #### embracing our weakness
 - sovereign agents are not a commercial product but an implementation proposal of distributed agents for sovereign individuals and thus don't care about controling every aspect of the experience but instead embracing chaos
 - horizontal distribution and interoperability can far outweight lack of vertical integaration on the long run
 - open systems tend to win over closed ones given enough time to catch up on technological advancements
-#### currently identified obstacles 
-##### Privacy
-- confidential computing is complex, with multiple competing architectures and implementation limitations (more research on that can be found at [ungovernable.tech](https://ungovernable.tech)
-- limited availability of hardware, specifically high end GPUs that have secure enclave support but there are alternative approaches like extending [CPU TEEs on existing GPUs without hardware modifications](https://www.s3lab.io/paper/gevisor-socc23)
-##### Complexity
-- lots of new technologies that might lack maturity and will be bumpy to work with
-- decentralized systems are inherintly more complex to build than centralized ones
 
-
-### Resources
-- [OpenAgents: An open platform for language agents in the wild](https://arxiv.org/pdf/2310.10634)
-- [OSworld - benchmarking multimodal agents for open-ended tasks in real computer environments](https://arxiv.org/pdf/2404.07972)
-- [Andrew Ng - Agentic AI workflows](https://www.youtube.com/watch?v=sal78ACtGTc)
-- [Bret Taylor - The Agent Era](https://www.joincolossus.com/episodes/48526910/taylor-the-agent-era-and-another-version-the-agentic-era)
 
 For comments, issues or ideas go to [repository](https://github.com/aljazceru/sovereign-agents) or ping me on [nostr.](https://nostr.at/aljaz@nostr.si)
