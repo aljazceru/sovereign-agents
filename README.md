@@ -2,7 +2,8 @@
 Sovereign agents are extension of a sovereign individual, expanding his capabilities and augmenting his intelect. 
 
 ### Why agents 
-Currently primary modality of how people interact with any "AI" is by requesting things from it. But this is merely a crutch compared to the endless amount of things an semi-autonomous agent could do for you. 
+Currently primary modality of how people interact with any "AI" is by requesting things from it. But this is merely a crutch compared to the endless amount of things an semi-autonomous agent could do for you. Imagine an assistant that reminds you of your appointments, helps you orchestrate other agents, provides you daily briefings about important things you might care about (personalized to your interests and concerns), follows latest research about things that worry you and remembers things for you. Sovereign agent can be your companion in any quest you might take upon yourself. 
+
 
 ### Why sovereign agents
 - technology advancements and state of the world has brought us to a point where it is possible and also needed to build them
@@ -24,13 +25,19 @@ Sovereign agent(SovAgnt) is a guard dog for its owner's attention and time. Proa
 
 Sovereign Agent can be thought of as a personal assistant knowing all your quirks, executing your will and making sure you're on top of everything needed. It should improve your life, not provide just another gadget to play with.
 
-### Functions of sovereign agents
-- daily summaries based on interests (podcasts, blogs, rss feeds etc)
+### (some) Functions of sovereign agents
+#### Personal Assistant
 - email and other communication filtering, acting as a narrow executive assistant, drafting responses 
-- perform tasks like research, copywriting, reminding you of your appointments
-- access your knowledge base
-- detailed memory 
-
+- perform tasks like research,simple copywriting, reminding and scheduling appointments
+- working memory of your affairs
+- keep notes
+#### Work Orchestration
+- orchestrate other agents
+- stay on top of projects
+- 
+#### Knowledge 
+- daily summaries based on interests (podcasts, blogs, rss feeds, nostr)
+- access your knowledge base (and other knowledge bases available)
 
 ### Building blocks for Sovereign Agents
 #### Nostr
