@@ -54,13 +54,7 @@ Sovereign Agent can be thought of as a personal assistant knowing all your quirk
 [MCP](https://docs.cursor.com/advanced/model-context-protocol) was developed by Anthropic and expands LLM's capabilities with tools. There is an implementation of using nostr as discovery mechanism for MCP called [ContextVM](https://www.contextvm.org/). This instantly gives the SovAgnt ability to access variety of tools. 
 
 #### Confidential Computing
-Confidential computing enables us to run sensitive operations on much more capable hardware than we own. This enables us to securely scale while not relying on big AI solutions for our AI needs. Providers like [privatemode.ai](https://privatemode.ai) make it easy to integrate confidential inference in SovAgnt and separate holons. Given the compatibility of api standards it is also easy to swap out between locally run models and using a confidential ai provider, or using remote inference for bigger tasks and local model for coordination. 
-
-
-### Open and interoperable approach to building
-- building in the open to attract as many people to the efforts as possible
-- thinking about developer experience to make new contributions as simple as possible
-- defining API contracts (where possiblle) to make integrations easy(ier)
+Confidential computing enables us to run sensitive operations on much more capable hardware than we own. This enables us to securely scale while not relying on big AI solutions for our AI needs. Providers like [privatemode.ai](https://privatemode.ai) make it easy to integrate confidential inference in SovAgnt and separate holons. Given the compatibility of api standards it is also easy to swap out between locally run models and using a confidential ai provider, or using remote inference for bigger tasks and local model for coordination. Example of confidential llm inference combined with signal chat - [private ai assistant](https://github.com/aljazceru/private-ai-assistant/). 
 
 ### Why can't I just run everything locally
 - you could, and it should be supported to prioritize local utilization of resources, but you likely won't be able to have the hardware resources or access to all information you'd like locally
@@ -70,12 +64,12 @@ Confidential computing enables us to run sensitive operations on much more capab
 ### Plan
 #### implementing reusable building blocks using holon philosophy, making each of them usable by themselves and as a part of a larger system
 - a lot of holons can be implemented as standalone [ContextVM](https://www.contextvm.org/), thus immediately useful and could actually provide revenue to users running them
-- by embracing distributed tools sovereign agents instantly get all the abilities of all tools the marketplaces provide
+- by embracing distributed tools sovereign agents instantly get all the abilities of all tools the marketplaces provides
 - even if the user runs all of his own infrastructure he can still benefit by offering his access capacity to others
 
 #### focusing upfront on making the participation of other interested parties as smooth as possible
 - extensive documentation and development tooling to enable rapid experimentation
-- ensuring minimal non-breakable communication standards between holons to prevent breaking changes and friction in the process by using nostr as internal coordination mechanism for the SovAgnt 
+- ensuring minimal non-breakable communication standards between holons to prevent breaking changes and friction in the process by using nostr as internal coordination mechanism for the SovAgnt
   
 
 
